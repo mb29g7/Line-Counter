@@ -19,7 +19,7 @@ print(f"This input contains {line_count} lines.")
 
 
 # Read all lines from a file and count them
-with open("C:/Users/splas/Downloads/(name goes here).txt", 'r') as fp:
+with open("C:/Users/splas/Downloads/(name goes here).txt", 'r') as fp:      #this is the path, needs user edit based on file
     lines = len(fp.readlines())
     print('Total Number of lines:', lines)
 
